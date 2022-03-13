@@ -1,5 +1,5 @@
 <?php 
-$con=mysqli_connect('localhost','pavani','pavani');
+$con=mysqli_connect('localhost', "root", "");
 mysqli_select_db($con,'connect');
 $res=mysqli_query($con,"select email,name,contact,cmail from signup;");
 $con_arr=array();
