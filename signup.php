@@ -1,5 +1,5 @@
 <?php
-    $con = mysqli_connect('localhost','pavani','pavani');
+    $con = mysqli_connect('localhost', "root", "");
     mysqli_select_db($con,'connect');
     $email = $_POST['email'];
     $pwd = $_POST['pwd'];
