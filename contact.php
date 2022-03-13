@@ -1,5 +1,5 @@
 <?php
-$con=mysqli_connect('localhost','pavani','pavani');
+$con=mysqli_connect('localhost', "root", "");
 mysqli_select_db($con,'connect');
 $name = $_POST['name'];
 $num = $_POST['no'];
